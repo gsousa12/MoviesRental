@@ -1,0 +1,93 @@
+# Ignorar arquivos e pastas do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar pastas de build e dependências
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+*.pdb
+*.cache
+*.dotCover
+*.log
+*.vspscc
+*.vssscc
+
+# Ignorar arquivos de configuração local
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignorar arquivos de usuário específicos
+*.userprefs
+
+# Ignorar arquivos de NuGet
+.nuget/
+**/[Pp]ackages/*
+!**/[Pp]ackages/repositories.config
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignorar arquivos de logs e diagnósticos
+*.log
+*.sublime-workspace
+
+# Ignorar arquivos do Rider
+.idea/
+*.sln.iml
+
+# Ignorar arquivos do VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignorar arquivos do Azure
+*.azurePubxml
+*.pubxml
+*.publishsettings
+
+# Ignorar arquivos do Docker
+docker-compose.override.yml
+docker-compose.vs.debug.yml
+docker-compose.vs.release.yml
+
+# Ignorar arquivos do Node.js
+node_modules/
+npm-debug.log
+
+# Ignorar arquivos do front-end (se houver)
+wwwroot/lib/
+dist/
+out/
+build/
+
+# Ignorar arquivos de migração do Entity Framework (se houver)
+Migrations/
+
+# Ignorar arquivos de teste
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# Ignorar arquivos gerados pelo .NET
+**/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+**/*.AssemblyInfo.cs
+**/*.AssemblyInfoInputs.cache
+**/*.assets.cache
+**/*.GeneratedMSBuildEditorConfig.editorconfig
+**/*.GlobalUsings.g.cs
+**/*.csproj.nuget.*
+**/project.assets.json
+**/project.nuget.cache
+**/staticwebassets/
+
+# Ignorar arquivos de cache do Visual Studio
+**/FileContentIndex/

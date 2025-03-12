@@ -10,7 +10,6 @@ namespace MoviesRental.Domain.Entities
 {
     public class Dvd : Entity
     {
-
         protected Dvd() { }
 
         public Dvd(string title, int genre, DateTime published, int copies, Guid directorId)
